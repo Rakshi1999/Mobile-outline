@@ -1,0 +1,42 @@
+body{
+    background-color:rgba(139, 233, 232, 0.951);    
+}
+
+.outline{
+    border-radius: 10px;
+    max-width: 390px;
+    display: block;
+    margin:50px auto;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 6px 6px 2px #c5c3c3;
+}
+img{
+    display: block;
+    margin:0 auto;
+    margin-top: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:grey;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.nav-link:hover{
+    background-color:rgb(43, 226, 107);
+}
+
+
